@@ -70,7 +70,7 @@ Pre-curated concept sets for reproducible experiments:
 
 The generated images and Qwen2-VL-7B judgments behind the paper's comparison are on Hugging Face:
 [yuyang-xue-ed/CRCE-CorefConcept-Eval](https://huggingface.co/datasets/yuyang-xue-ed/CRCE-CorefConcept-Eval).
-It holds 168k images from SD v1.4, CRCE and 8 baselines across all 50 CorefConcept targets. You can use it to re-score
+It holds 168k images from SD v1.4, CRCE, two CRCE ablation variants and 6 baselines across all 50 CorefConcept targets. You can use it to re-score
 methods with another judge or to compare a new method against the same prompts without regenerating the baselines.
 
 ```python
